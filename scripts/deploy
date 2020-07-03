@@ -1,0 +1,5 @@
+#!/bin/bash
+rm -rf outbox/*
+cp *.html outbox/
+cp -r styles outbox/
+cp -r images outbox/
