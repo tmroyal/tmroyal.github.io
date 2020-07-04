@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #334;
+    height: 100%;
+    color: #e9e4e9;
+    font-family: "San Francisco", "Calibri", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 100;
+    width: 100%;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    font-weight: inherit;
+}
+
+header {
+    width: 100%;
+    padding: 0;
+}
+
+header h1, header h2 {
+    margin: 0; 
+}
+
+header h1 {
+    padding-top: 4%;
+    font-size: 200%;
+    font-weight: 300;
+    color: #added2;
+}
+
+header h2 {
+    padding-top: 1%;
+    padding-bottom: 7%;
+    font-size: 140%;
+    font-weight: 100;
+    color: #deb1ad;
+}
+
+header img {
+    float: left;
+    padding: 0;
+    margin: 4% 5% 4% 6%;
+    border-width: 1px;
+    text-align: center;
+    display:inline-block;
+    box-shadow: 1px 1px 5px #222;
+    vertical-align: middle;
+}
+
+a {
+    color: #aae;
+}
+
+a:visited {
+    color: #fae;   
+}
+
+a:hover, a:focus {
+    color: #fff;
+}
+
+
+main {
+    clear: both;
+    width: 100%;
+}
+
+aside {
+    padding-left: 4%;
+    width: 15%;
+    float: left;
+    min-height: 100%;
+}
+
+aside a {
+    font-size: 120%;
+    font-weight: 300;
+    padding: 0 2%;
+}
+
+aside p {
+    padding-top: 1em;
+    font-size: 100%;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+
+aside img.icon {
+    vertical-align: middle;
+    height: 32px;
+    padding: 10px 16px 10px 0;
+}
+
+aside h3 {
+    padding: 1em 0 0em;
+    font-weight: 400;
+}
+
+section {
+    border-left: 1px solid #445;
+    width: 75%;
+    float: right;
+    padding-left: 3%;
+    margin-bottom: 5%;
+}
+
+section h3 {
+    font-size: 250%;
+    padding: 0.5em 0 0;
+    font-weight: 500;
+    color: #deb1ad;
+}
+
+section h4 {
+    font-size: 140%;
+    padding: 3em 0 1em;
+    font-weight: 400;
+    clear: both;
+    color: #added2;
+}
+
+section img {
+    width: 30%;
+    box-shadow: 3px 3px 20px black;
+    float: left;
+    border: 2px solid rgba(0,0,0,0);
+    margin-right: 2em;
+}
+
+section p {
+    font-size: 120%;
+    font-weight: 200;
+    width: 65%;
+}
+
+section a img:hover, section a img:focus{
+    box-shadow: 3px 3px 10px black;
+    border: 2px solid #aac;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    margin: 0;
+    background: #added2;
+    color: black;
+    padding: 1em;
+}
+
