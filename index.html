@@ -2,9 +2,22 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="stylesheet" href="styles/normalize.css">
         <link rel="stylesheet" href="styles/final.css">
+        <link rel="stylesheet" href="styles/slicknav.css">    
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"> </script>    
+        <script src="js/jquery.slicknav.min.js"> </script>
+        <script type="text/javascript">
+          $(document).ready(
+            function(){
+              $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+            });    
+        </script>
+        
         <title>Thomas Royal | Programmer</title>
     </head>
     <body>
@@ -14,8 +27,10 @@
             <h1>Thomas Royal | Programmer</h1>
             <h2>innovation | beauty | clarity</h2>
         </header>
+
+        <nav id="mobile_menu"></nav>
         
-        <nav>
+        <nav id="nav_menu">
             <ul>
                 <a href="index.html"><li class="current">Home</li></a>
                 <a href="html_tags.html"><li>HTML5 Tags</li></a>
