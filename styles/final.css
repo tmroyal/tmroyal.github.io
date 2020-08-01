@@ -34,7 +34,7 @@ header h1, header h2 {
 
 header h1 {
     padding-top: 4%;
-    font-size: 200%;
+    font-size: 300%;
     font-weight: 300;
     color: #added2;
 }
@@ -42,7 +42,7 @@ header h1 {
 header h2 {
     padding-top: 1%;
     padding-bottom: 7%;
-    font-size: 140%;
+    font-size: 200%;
     font-weight: 100;
     color: #deb1ad;
 }
@@ -120,8 +120,7 @@ code {
 }
 
 aside {
-    padding-left: 4%;
-    padding-bottom: 2%;
+    padding: 2% 0 2% 4%;
     width: 15%;
     float: left;
     min-height: 100%;
@@ -156,12 +155,19 @@ section {
     border-left: 1px solid #445;
     width: 75%;
     float: right;
+    padding-top: 2%;
     padding-left: 3%;
     margin-bottom: 5%;
 }
 
-section dl {
-    
+section ul {
+    padding-left: 2em;
+    padding-top: 1em;
+    font-size: 120%;
+}
+
+section li {
+    padding: 0.3em; 
 }
 
 section dd {
@@ -227,3 +233,6 @@ footer {
     padding: 1em;
 }
 
+footer p#copy{
+    padding-top: 1em; 
+}
