@@ -12,7 +12,7 @@
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"> </script>    
         <script src="js/jquery.slicknav.min.js"> </script>
       
-        <script type="text/javascript">
+        <script>
           $(document).ready(
             function(){
               $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
@@ -24,7 +24,7 @@
     <body>
         
         <header>
-            <img src="images/profile.png">
+            <img alt="Portfolio image" src="images/profile.png">
             <h1>Thomas Royal | Programmer</h1>
             <h2>innovation | beauty | clarity</h2>
         </header>
@@ -33,8 +33,8 @@
 
         <nav id="nav_menu">
             <ul>
-                <a href="index.html"><li>Home</li></a>
-                <a href="portfolio.html"><li class="current">Portfolio</li></a>
+                <li><a href="index.html">Home</a></li>
+                <li class="current"><a href="portfolio.html">Portfolio</a></li>
             </ul>
         </nav>
         
