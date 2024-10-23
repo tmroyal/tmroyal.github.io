@@ -8,9 +8,11 @@ title: About
 
 I have done a lot of loosely related stuff. See previous iterations of this site on the [Wayback Machine](https://web.archive.org/web/20130901000000*/tmroyal.com) for an idea of how I've spent my life. Here is a description of how I spend it currently.
 
+(Note: at the time of writing this, it seems that the Wayback Machine is down. They've had some [security issues](https://www.npr.org/2024/10/20/nx-s1-5159000/internet-archive-hack-leak-wayback-machine) lately.)
+
 ## Developer
 
-I am currently working as a backend developer at [Feathr](https://www.feathr.co). Much of my work involves API integrations with Blackbaud, iMIS, AWS/Pinpoint and other services in support of a marketing platform for non-profits. We work with Flask, MongoDB/mongoengine and ElasticSearch and some in house tools for job processing.
+I am currently working as a backend engineer at [Feathr](https://www.feathr.co). Much of my work involves API integrations with Blackbaud, iMIS, AWS/Pinpoint and other services in support of a marketing platform for non-profits. We work with Flask, MongoDB/mongoengine and ElasticSearch and some in house tools for job processing.
 
 ## Pianist
 
